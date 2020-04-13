@@ -213,6 +213,10 @@
 * 小程序
 * Hybrid APP
 
+***
+## 前端工程师发展方向（使用亦舒同学总结的脑图）
+***
+![Image text](https://github.com/446160375/Frontend-01-Template/blob/master/week01/img/zhiyelujing.png)
 
 
     
