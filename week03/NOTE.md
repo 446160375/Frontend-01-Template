@@ -32,3 +32,60 @@
 * Module Namespece
   * [[Module]] 视为一个引入的模块
   * [[Exports]] 视为一个导出的模块
+
+***
+## Javascript语句
+  * Atom
+  * Expression
+  * Statement
+  * Structure
+  * Program/Module
+  
+### Grammar
+  * 简单语句
+      * Expression Statement 表达式语句
+      * a = 1 + 2;
+    * Empty Statement 空语句
+    * ;
+    * Debugger Statement debugger语句，运行时不产生作用
+      * debugger;
+    * ThrowStatement
+      * throw a;
+    * Continue Statement(与循环相互匹配)
+      * continue label
+    * Break Statement(与循环匹配)
+      * break label2;
+    * Return Statement
+      * return; / return 1;
+
+  * 组合语句
+    * Block Statement
+  * Iteration
+    * while()
+    * do...while
+    * for
+    * for...in...
+    * for...of...
+
+  * 声明
+    * FunctionDeclaration
+    * GeneratorDeclaration
+    * AsyncFunctionDeclaration
+    * AsyncGeneratorDeclaration
+    * VariableStatemeny
+    * ClassDeclaration
+    * LexicalDeclaration
+
+  * 标签、循环、break、continue
+    * LabelledStatement
+    * IterationStatement
+    * ContinueStatement
+    * BreakStatement
+    * SwitchStatement
+  
+  * Runtime：
+    * Complection Record
+      * [[type]]: normal, break, continue, return, throw
+      * [[value]]: Types
+      * [[target]]: label
+    * Lexical Enviorment
